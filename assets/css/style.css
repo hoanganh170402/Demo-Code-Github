@@ -31,7 +31,11 @@ html
 {
     height: 46.5px;
     background-color: black;
+}
 
+#nav
+{
+    display: inline-block;
 }
 
 #nav, .subnav
@@ -55,8 +59,6 @@ html
     color: #fff;
     text-transform:uppercase;
     display:inline-block;
-
-
 }
 
 #nav li a 
@@ -64,8 +66,13 @@ html
     text-decoration: none;
     padding:0 24px;
     display: block;
-
 }
+
+#nav .nav-arrow-down
+{
+    font-size: 14px;
+}
+
 #nav li:hover .subnav
 {
     display: block;
@@ -97,12 +104,29 @@ html
     line-height: 38px;
 }
 
+#header .search-btn
+{
+    float:right;
+    padding: 0 21px;
+}
 
+#header .search-btn:hover
+{
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+#header .search-icon
+{
+    color:#fff;
+    font-size: 15px;
+    line-height: 46.5px;
+}
 
 #slider
 {
-    /* min-height: 500px;
-    background-color: #333; */
+    min-height: 500px;
+    background-color: #333;
 }
 
 #content

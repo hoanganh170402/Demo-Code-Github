@@ -31,6 +31,10 @@ html
 {
     height: 46.5px;
     background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 #nav
@@ -127,6 +131,7 @@ html
 {
     min-height: 500px;
     background-color: #333;
+    margin-top: 46.5px;
 }
 
 #content

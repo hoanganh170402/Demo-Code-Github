@@ -22,6 +22,12 @@ html
     3. Màu sắc
     4. Kiểu dáng ( kiểu trữ, hình tròn, vuông, ....)
 */
+
+.clear
+{
+    clear: both;
+}
+
 #main
 {
 
@@ -195,6 +201,30 @@ html
     margin-top: 15px;
     line-height: 1.4;
     text-align: justify;
+}
+
+#content .member-list
+{
+    margin-top: 48px;
+}
+
+#content .member-item
+{
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+}
+
+#content .member-name
+{
+    
+}
+
+#content .member-img
+{
+    width: 154px;
+    margin-top: 15px;
+    border-radius: 4px;
 }
 
 #footer

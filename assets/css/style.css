@@ -27,6 +27,13 @@ html
 {
     clear: both;
 }
+/* important được ưu tiên nhất. 
+Và chỉ sử dụng khi dùng các class đơn lẻ để làm một việc cụ thể
+Ở đây là làm chử thành màu trắng */
+.text-white
+{
+    color: #fff !important;
+}
 
 #main
 {
@@ -176,6 +183,7 @@ html
 #content .content-section
 {
     padding:64px 0;
+
 }
 
 #content .section-heading
@@ -225,6 +233,11 @@ html
     width: 154px;
     margin-top: 15px;
     border-radius: 4px;
+}
+
+.tour-section
+{
+    background-color: #000;
 }
 
 #footer

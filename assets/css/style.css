@@ -276,6 +276,70 @@ Và chỉ sử dụng khi dùng các class đơn lẻ để làm một việc c�
     margin-top: -1px;
 }
 
+.places-list
+{
+    margin: 32px -8px 48px;
+}
+
+.places-item
+{
+    float: left;
+    width: 33.33333%;
+    padding: 0 8px;
+}
+
+.place-img
+{
+    width: 100%;
+    display: block;
+}
+
+.place-img:hover
+{
+    opacity: 0.6;
+}
+
+.places-body
+{
+    padding: 16px;
+    background-color: #fff;
+    font-size: 15px;
+}
+
+.places-heading
+{
+    font-size: 15px;
+    font-weight: 550;
+    
+}
+
+.places-time
+{
+    margin-top: 15px;
+    opacity: 0.6;
+}
+
+.places-desr
+{
+    margin-top: 15px;
+}
+
+.places-buy-btn
+{
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    padding: 9px 18px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.places-buy-btn:hover
+{
+    color: #000;
+    background-color: #ccc;
+}
+
 #footer
 {
     

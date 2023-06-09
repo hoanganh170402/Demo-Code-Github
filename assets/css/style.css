@@ -277,6 +277,71 @@ html
     margin-top: -1px;
 }
 
+.places-list
+{
+    margin: 32px -8px 48px;
+}
+
+.places-item
+{
+    float: left;
+    width: 33.33333%;
+    padding: 8px;
+}
+
+.places-img
+{
+    width: 100%;
+    display: block;
+}
+
+.places-img:hover
+{
+    opacity: 0.6;
+}
+
+.places-body
+{
+    background-color: #fff;
+    color: #000;
+    padding: 16px;
+    font-size: 15px;
+}
+
+.places-heading
+{
+    font-size: 15px;
+    font-weight: 550;
+}
+
+.places-time
+{
+    margin-top: 15px;
+    color: #757575;
+}
+
+.places-desr
+{
+    margin-top: 15px;
+}
+
+.places-buy-btn
+{
+    margin-top: 15px;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px 17px;
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+}
+
+.places-buy-btn:hover
+{
+    background-color: #757575;
+    color: #000;
+}
+
 #footer
 {
     

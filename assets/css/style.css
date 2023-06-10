@@ -184,6 +184,7 @@ Và chỉ sử dụng khi dùng các class đơn lẻ để làm một việc c�
     margin-left: auto;
     margin-right: auto;
     padding:64px 0;
+    margin-bottom: 32px;
 }
 
 #content .section-heading

@@ -344,3 +344,107 @@ Và chỉ sử dụng khi dùng các class đơn lẻ để làm một việc c�
 {
     
 }
+
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    /* chuyển display thành flex để hiện modal */
+    display: none;
+}
+
+.modal-container 
+{
+    background: #fff;
+    width: 900px;
+    min-height: 200px;
+    position: relative;
+    max-width: calc(100% -32px);
+}
+
+
+.modal-close 
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 16px;
+    font-size: 15px;
+    opacity: 0.8;
+    color: #fff;
+    cursor: pointer;
+}
+
+.modal-close:hover 
+{
+    opacity: 1;
+}
+
+.modal-header {
+    background-color: #009688;
+    font-size: 30px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.modal-header-icon
+{
+    margin-right: 16px;
+}
+
+.modal-body 
+{
+    padding: 16px;
+}
+
+.modal-label 
+{
+    display: block;
+    margin-bottom: 12px;
+}
+
+.modal-input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+#modal-btn {
+    width: 100%;
+    border: none;
+    background: #009688;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    opacity: 0.8;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+#modal-btn:hover
+{
+    opacity: 1;
+}
+
+.modal-footer
+{
+    padding: 16px;
+    text-align: right;
+}
+
+.modal-footer a
+{
+    color: #2196F3;
+}

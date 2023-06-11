@@ -330,15 +330,16 @@ html
     margin-top: 15px;
     font-size: 15px;
     text-decoration: none;
-    padding: 10px 17px;
+    padding: 12px 18px;
     background-color: #000;
     color: #fff;
     display: inline-block;
+    border: none;
 }
 
 .places-buy-btn:hover
 {
-    background-color: #757575;
+    background-color: #ccc;
     color: #000;
 }
 
@@ -358,6 +359,12 @@ html
     justify-content: center;
     align-items: center;
     display: none;
+    animation: ModalTransition ease .4s;
+}
+
+.modal.open
+{
+    display: flex;
 }
 
 .modal-container 
@@ -451,4 +458,18 @@ html
 .modal-footer a
 {
     color: #2196F3;
+}
+
+@keyframes ModalTransition
+{
+    from 
+    {
+        transform: translateY(-160px);
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

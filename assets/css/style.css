@@ -330,9 +330,11 @@ Và chỉ sử dụng khi dùng các class đơn lẻ để làm một việc c�
     color: #fff;
     background-color: #000;
     text-decoration: none;
-    padding: 9px 18px;
+    padding: 12px 20px;
     display: inline-block;
     margin-top: 15px;
+    border: none;
+    font-size: 15px;
 }
 
 .places-buy-btn:hover
@@ -359,6 +361,11 @@ Và chỉ sử dụng khi dùng các class đơn lẻ để làm một việc c�
     display: none;
 }
 
+.modal.open
+{
+    display: flex;
+}
+
 .modal-container 
 {
     background: #fff;
@@ -366,6 +373,7 @@ Và chỉ sử dụng khi dùng các class đơn lẻ để làm một việc c�
     min-height: 200px;
     position: relative;
     max-width: calc(100% -32px);
+    animation: modalstransition ease .4s;
 }
 
 
@@ -448,4 +456,19 @@ Và chỉ sử dụng khi dùng các class đơn lẻ để làm một việc c�
 .modal-footer a
 {
     color: #2196F3;
+}
+
+/* Keyfram dùng để làm hiệu ứng  */
+@keyframes modalstransition
+{
+    from
+    {
+        transform: translateY(-140px);
+        opacity: 0;
+    }
+    to
+    {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }

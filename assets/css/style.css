@@ -22,7 +22,7 @@ html
     3. Màu sắc
     4. Kiểu dáng ( kiểu trữ, hình tròn, vuông, ....)
 */
-
+/* Common ( dùng chung) */
 .clear
 {
     clear: both;
@@ -35,6 +35,34 @@ Và chỉ sử dụng khi dùng các class đơn lẻ để làm một việc c�
     color: #fff !important;
 }
 
+.text-center
+{
+    text-align: center;
+}
+
+.row 
+{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.col 
+{
+    float:left;
+    padding: 0 8px;
+}
+
+.col-haft
+{
+    width: 50%;
+}
+
+.col-thirt
+{
+    width: 33.33333%;
+}
+
+/* Main */
 #main
 {
 
@@ -219,8 +247,6 @@ Và chỉ sử dụng khi dùng các class đơn lẻ để làm một việc c�
 
 #content .member-item
 {
-    float: left;
-    width: 33.33333%;
     text-align: center;
 }
 
@@ -279,14 +305,13 @@ Và chỉ sử dụng khi dùng các class đơn lẻ để làm một việc c�
 
 .places-list
 {
-    margin: 32px -8px 48px;
+    margin-top: 32px;
+    margin-bottom: 48px;
 }
 
 .places-item
 {
-    float: left;
     width: 33.33333%;
-    padding: 0 8px;
 }
 
 .place-img

@@ -22,7 +22,7 @@ html
     3. Màu sắc
     4. Kiểu dáng ( kiểu trữ, hình tròn, vuông, ....)
 */
-
+/* Common ( dùng chung) */
 .clear
 {
     clear: both;
@@ -33,6 +33,33 @@ html
     color:#fff !important;
 }
 
+.text-center
+{
+    text-align: center !important;
+}
+
+.rol 
+{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.col 
+{
+    float: left;
+    padding: 8px;
+}
+
+.col-haft
+{
+    width: 50%;
+}
+
+.col-thirt
+{
+    width: 33.33333%;
+}
+/* Main */
 #main
 {
 
@@ -217,10 +244,7 @@ html
 
 #content .member-item
 {
-    float:left;
-    
     text-align: center;
-    width: 33.33333%;
 }
 
 #content .member-name
@@ -279,14 +303,14 @@ html
 
 .places-list
 {
-    margin: 32px -8px 48px;
+    margin-top: 32px;
+    margin-bottom: 48px;
 }
 
 .places-item
 {
-    float: left;
-    width: 33.33333%;
-    padding: 8px;
+
+
 }
 
 .places-img

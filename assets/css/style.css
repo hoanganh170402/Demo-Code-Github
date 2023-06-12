@@ -38,27 +38,50 @@ html
     text-align: center !important;
 }
 
-.rol 
+.row 
 {
     margin-left: -8px;
     margin-right: -8px;
 }
 
+.row::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
 .col 
 {
     float: left;
-    padding: 8px;
+    padding: 0 8px;
 }
 
-.col-haft
+.col-full
+{
+    width: 100%;
+}
+
+.col-half
 {
     width: 50%;
 }
 
-.col-thirt
+.col-third
 {
     width: 33.33333%;
 }
+
+.mt-8
+{
+    margin-top: 8px;
+}
+
+.mt-16
+{
+    margin-top: 16px;
+}
+
 /* Main */
 #main
 {
@@ -366,6 +389,52 @@ html
     background-color: #ccc;
     color: #000;
 }
+
+.contact-container
+{
+    margin-top: 48px;
+}
+
+.contact-info
+{
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.contact-info i 
+{
+    width: 30px;
+    display: inline-block;
+}
+
+.contact-form
+{
+    font-size: 15px;
+}
+
+.contact-form .form-control
+{
+    padding: 8.5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form .form-submit-btn
+{
+    color: #fff;
+    background: #000;
+    padding: 11px 16px;
+    border: none;
+    float: right;
+    border-radius: 4px;
+}
+.contact-form .form-submit-btn:hover
+{
+    background-color: #CCC;
+    color: #000;
+}
+
 
 #footer
 {

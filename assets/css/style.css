@@ -37,7 +37,7 @@ Và chỉ sử dụng khi dùng các class đơn lẻ để làm một việc c�
 
 .text-center
 {
-    text-align: center;
+    text-align: center !important;
 }
 
 .row 
@@ -46,10 +46,23 @@ Và chỉ sử dụng khi dùng các class đơn lẻ để làm một việc c�
     margin-right: -8px;
 }
 
+/* Thêm element giả để thay thế cho việc thêm class clear vào */
+.row::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
 .col 
 {
     float:left;
     padding: 0 8px;
+}
+
+.col-full
+{
+    width: 100%;
 }
 
 .col-haft
@@ -57,9 +70,19 @@ Và chỉ sử dụng khi dùng các class đơn lẻ để làm một việc c�
     width: 50%;
 }
 
-.col-thirt
+.col-third
 {
     width: 33.33333%;
+}
+
+.mt-8
+{
+    margin-top: 8px !important;
+}
+
+.mt-16
+{
+    margin-top: 16px !important ;
 }
 
 /* Main */
@@ -368,6 +391,51 @@ Và chỉ sử dụng khi dùng các class đơn lẻ để làm một việc c�
     background-color: #ccc;
 }
 
+.contact-content
+{
+    margin-top: 48px;
+}
+
+.contact-info
+{
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.contact-info i
+{
+    width: 30px;
+    display: inline-block;
+}
+
+.contact-form 
+{
+    font-size: 15px;
+}
+
+.contact-form .form-control
+{
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.contact-form .form-submit-btn
+{
+    color: #fff;
+    background: #000;
+    padding: 11px 16px;
+    border: none;
+    float: right;
+    border-radius: 4px;
+}
+.contact-form .form-submit-btn:hover
+{
+    background-color: #CCC;
+    color: #000;
+}
+
 #footer
 {
     
@@ -419,7 +487,8 @@ Và chỉ sử dụng khi dùng các class đơn lẻ để làm một việc c�
     opacity: 1;
 }
 
-.modal-header {
+.modal-header 
+{
     background-color: #009688;
     font-size: 30px;
     height: 130px;
@@ -445,7 +514,8 @@ Và chỉ sử dụng khi dùng các class đơn lẻ để làm một việc c�
     margin-bottom: 12px;
 }
 
-.modal-input {
+.modal-input 
+{
     padding: 10px;
     width: 100%;
     border: 1px solid #ccc;
@@ -454,7 +524,8 @@ Và chỉ sử dụng khi dùng các class đơn lẻ để làm một việc c�
     border-radius: 6px;
 }
 
-#modal-btn {
+#modal-btn 
+{
     width: 100%;
     border: none;
     background: #009688;

@@ -38,6 +38,30 @@ html
     text-align: center !important;
 }
 
+.pull-right
+{
+    float: right !important;
+}
+
+.btn
+{
+    margin-top: 15px;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 12px 18px;
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    border: none;
+    border-radius:4px ;
+}
+
+.btn:hover
+{
+    background-color: #ccc;
+    color: #000;
+}
+
 .row 
 {
     margin-left: -8px;
@@ -372,23 +396,7 @@ html
     margin-top: 15px;
 }
 
-.places-buy-btn
-{
-    margin-top: 15px;
-    font-size: 15px;
-    text-decoration: none;
-    padding: 12px 18px;
-    background-color: #000;
-    color: #fff;
-    display: inline-block;
-    border: none;
-}
 
-.places-buy-btn:hover
-{
-    background-color: #ccc;
-    color: #000;
-}
 
 .contact-container
 {
@@ -435,10 +443,43 @@ html
     color: #000;
 }
 
+.map-section img
+{
+    width: 100%;
+}
+
 
 #footer
 {
-    
+    padding: 64px 16px;
+    text-align: center;
+}
+
+#footer .social-list
+{
+    font-size: 24px;
+}
+
+#footer .social-list a
+{
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
+#footer .copyright a:hover,
+#footer .social-list a:hover
+{
+    color: rgba(0, 0, 0, 0.3);
+}
+
+#footer .copyright
+{
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#footer .copyright a 
+{
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .modal  

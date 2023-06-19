@@ -40,6 +40,30 @@ Và chỉ sử dụng khi dùng các class đơn lẻ để làm một việc c�
     text-align: center !important;
 }
 
+.pull-right
+{
+    float:right !important;
+}
+
+.btn
+{
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    padding: 12px 20px;
+    display: inline-block;
+    margin-top: 15px;
+    border: none;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+.btn:hover
+{
+    color: #000;
+    background-color: #ccc;
+}
+
 .row 
 {
     margin-left: -8px;
@@ -373,24 +397,6 @@ Và chỉ sử dụng khi dùng các class đơn lẻ để làm một việc c�
     margin-top: 15px;
 }
 
-.places-buy-btn
-{
-    color: #fff;
-    background-color: #000;
-    text-decoration: none;
-    padding: 12px 20px;
-    display: inline-block;
-    margin-top: 15px;
-    border: none;
-    font-size: 15px;
-}
-
-.places-buy-btn:hover
-{
-    color: #000;
-    background-color: #ccc;
-}
-
 .contact-content
 {
     margin-top: 48px;
@@ -436,10 +442,45 @@ Và chỉ sử dụng khi dùng các class đơn lẻ để làm một việc c�
     color: #000;
 }
 
+.map-section img
+{
+    width: 100%;
+}
+
 #footer
 {
-    
+    padding: 64px 16px;
+    text-align: center;
 }
+
+#footer .social-list
+{
+    font-size: 24px;
+}
+
+#footer .social-list a 
+{
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
+
+#footer .copyright a:hover,
+#footer .social-list a:hover
+{
+    color: rgba(0, 0, 0, 0.3);
+}
+
+#footer .copyright
+{
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 15px;
+}
+
+#footer .copyright a
+{
+    color: rgba(0, 0, 0, 0.6);
+}
+
 
 .modal {
     position: fixed;

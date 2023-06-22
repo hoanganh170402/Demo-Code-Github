@@ -1,42 +1,160 @@
-body
-{
-    background-color: orange;
-    display: flex;
-    height: 100vh;
+* {
+    box-sizing: border-box;
 }
 
-.mobiel,
-.tablet,
-.pc
-{
+body {
+    margin: 0;
+    background-color: #fff;
+}
+
+.main {
+    width: 1200px;
+    min-height: 100vh;
+    max-width: 100%;
     margin: auto;
-    font-size: 100px;
-    color: white;
+    padding-bottom: 20px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    background-color: #333;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 48px;
+}
+
+/* Mobile nhỏ hơn 740px */
+.nav__bars-btn 
+{
+    font-size: 25px;
+    color: #fff;
     display: none;
 }
 
-/* Mobile: width: <740px */
-@media only screen and ( max-width : 739px)
+.nav__overlay
 {
-    .mobiel
-    {
-    display: block;
-    }
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+    animation: FadeIn linear 1.5s;
 }
-/* tablet: width: >=740px and width < 1024px */
-@media only screen and (min-width: 740px) and ( max-width : 1023px)
+
+
+
+.nav__mobile
 {
-    .tablet
-    {
+    position: fixed;
+    top: 0;
+    left:0;
+    bottom: 0;
+    background-color: #fff;
+    width: 400px;
+    max-width: 100%;
+    transform: translateX(-100%);
+    transition: transform linear 0.2s;
+}
+
+/* .nav__mobile.open
+{
+    transform: translateX(0);
+} */
+
+.nav__mobile-list
+{   
+    margin-top: 20px;
+    list-style: none;
     display: block;
+}
+
+.nav__mobile-link
+{
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 8px 0;
+    font-size: 20px;
+}
+
+.nav__mobile-close
+{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 20px;
+    color: #666;
+}
+
+.nav__mobile-close:hover
+{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.nav_input:checked ~ .nav__overlay
+{   
+    display: block;
+}
+
+.nav_input:checked ~ .nav__mobile
+{
+    transform: translateX(0);
+}
+
+@media (max-width:1023px)
+{
+    .nav__bars-btn
+    {
+        margin-left: 10px;
+        display: block;
+    }
+    .nav__pc
+    {
+        display: none;
     }
 }
 
-/* Mobile: width: >=1024px */
-@media only screen and ( min-width : 1024px)
+@keyframes FadeIn
 {
-    .pc
+    from
     {
-    display: block;
+        opacity: 0;
     }
+    to
+    {
+        opacity: 1;
+    }
+}
+/* Tablet lớn hơn 740px nhưng bé hơn 1024px */
+
+
+
+/* Article */
+h1 {
+    line-height: 2rem;
+}
+
+article {
+    padding: 0 16px;
+    line-height: 1.6rem;
+}
+
+article img {
+    width: 640px;
+    max-width: 100%;
+    display: block;
+    margin: 32px auto;
 }

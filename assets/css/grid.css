@@ -20,10 +20,22 @@
     margin-right: -4px;
 }
 
+.row.no-gutters
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .col
 {
     padding-left: 4px;
     padding-right: 4px;
+}
+
+.row.no-gutters .col
+{
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .mb-0
@@ -103,6 +115,62 @@
     max-width: 100%;
 }
 
+/* column offset mobile */
+
+.mb-o-1
+{
+    margin-left: 8.33333%;
+}
+
+.mb-o-2
+{
+    margin-left: 16.66667%;
+}
+
+.mb-o-3
+{
+    margin-left: 25%;
+}
+
+.mb-o-4
+{
+    margin-left: 33.33333%;
+}
+
+.mb-o-5
+{
+    margin-left: 41.66667%;
+}
+
+.mb-o-6
+{
+    margin-left: 50%;
+}
+
+.mb-o-7
+{
+    margin-left: 58.33333%;
+}
+
+.mb-o-8
+{
+    margin-left: 66.66667%;
+}
+
+.mb-o-9
+{
+    margin-left: 75%;
+}
+
+.mb-o-10
+{
+    margin-left: 83.33333%;
+}
+
+.mb-o-11
+{
+    margin-left: 91.66667%;
+}
 
 
 /*tablet and pc low resolution */
@@ -222,6 +290,63 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
+
+    /* column offset lablet and pc low resolution */
+
+    .tl-o-1
+    {
+        margin-left: 8.33333%;
+    }
+    
+    .tl-o-2
+    {
+        margin-left: 16.66667%;
+    }
+    
+    .tl-o-3
+    {
+        margin-left: 25%;
+    }
+    
+    .tl-o-4
+    {
+        margin-left: 33.33333%;
+    }
+    
+    .tl-o-5
+    {
+        margin-left: 41.66667%;
+    }
+    
+    .tl-o-6
+    {
+        margin-left: 50%;
+    }
+    
+    .tl-o-7
+    {
+        margin-left: 58.33333%;
+    }
+    
+    .tl-o-8
+    {
+        margin-left: 66.66667%;
+    }
+    
+    .tl-o-9
+    {
+        margin-left: 75%;
+    }
+    
+    .tl-o-10
+    {
+        margin-left: 83.33333%;
+    }
+    
+    .tl-o-11
+    {
+        margin-left: 91.66667%;
+    }
 }
 
 @media (min-width:1113px)
@@ -330,6 +455,63 @@
     {
         flex: 0 0 100%;
         max-width: 100%;
+    }
+
+    /* column offset pc  */
+
+    .pc-o-1
+    {
+        margin-left: 8.33333%;
+    }
+    
+    .pc-o-2
+    {
+        margin-left: 16.66667%;
+    }
+    
+    .pc-o-3
+    {
+        margin-left: 25%;
+    }
+    
+    .pc-o-4
+    {
+        margin-left: 33.33333%;
+    }
+    
+    .pc-o-5
+    {
+        margin-left: 41.66667%;
+    }
+    
+    .pc-o-6
+    {
+        margin-left: 50%;
+    }
+    
+    .pc-o-7
+    {
+        margin-left: 58.33333%;
+    }
+    
+    .pc-o-8
+    {
+        margin-left: 66.66667%;
+    }
+    
+    .pc-o-9
+    {
+        margin-left: 75%;
+    }
+    
+    .pc-o-10
+    {
+        margin-left: 83.33333%;
+    }
+    
+    .pc-o-11
+    {
+        margin-left: 91.66667%;
     }
 }
 
@@ -444,6 +626,63 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
+
+    /* column offset pc wide */
+
+    .wide .pc-o-1
+    {
+        margin-left: 8.33333%;
+    }
+    
+    .wide .pc-o-2
+    {
+        margin-left: 16.66667%;
+    }
+    
+    .wide .pc-o-3
+    {
+        margin-left: 25%;
+    }
+    
+    .wide .pc-o-4
+    {
+        margin-left: 33.33333%;
+    }
+    
+    .wide .pc-o-5
+    {
+        margin-left: 41.66667%;
+    }
+    
+    .wide .pc-o-6
+    {
+        margin-left: 50%;
+    }
+    
+    .wide .pc-o-7
+    {
+        margin-left: 58.33333%;
+    }
+    
+    .wide .pc-o-8
+    {
+        margin-left: 66.66667%;
+    }
+    
+    .wide .pc-o-9
+    {
+        margin-left: 75%;
+    }
+    
+    .wide .pc-o-10
+    {
+        margin-left: 83.33333%;
+    }
+    
+    .wide .pc-o-11
+    {
+        margin-left: 91.66667%;
+    }
 }
 
 /* pc hight resolution */
@@ -555,5 +794,62 @@
     {
         flex: 0 0 100%;
         max-width: 100%;
+    }
+
+    /* column offset pc hight resolution wide */
+
+    .wide .pc-o-1
+    {
+        margin-left: 8.33333%;
+    }
+    
+    .wide .pc-o-2
+    {
+        margin-left: 16.66667%;
+    }
+    
+    .wide .pc-o-3
+    {
+        margin-left: 25%;
+    }
+    
+    .wide .pc-o-4
+    {
+        margin-left: 33.33333%;
+    }
+    
+    .wide .pc-o-5
+    {
+        margin-left: 41.66667%;
+    }
+    
+    .wide .pc-o-6
+    {
+        margin-left: 50%;
+    }
+    
+    .wide .pc-o-7
+    {
+        margin-left: 58.33333%;
+    }
+    
+    .wide .pc-o-8
+    {
+        margin-left: 66.66667%;
+    }
+    
+    .wide .pc-o-9
+    {
+        margin-left: 75%;
+    }
+    
+    .wide .pc-o-10
+    {
+        margin-left: 83.33333%;
+    }
+    
+    .wide .pc-o-11
+    {
+        margin-left: 91.66667%;
     }
 }

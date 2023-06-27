@@ -366,6 +366,7 @@
     .pc-0,
     .pc-1,
     .pc-2,
+    .pc-2-4,
     .pc-3,
     .pc-4,
     .pc-5,
@@ -395,6 +396,12 @@
     {
         flex: 0 0 16.66667%;
         max-width: 16.66667%;
+    }
+
+    .pc-2-4
+    {
+        flex: 0 0 20%;
+        max-width: 20%;
     }
 
     .pc-3
@@ -536,6 +543,7 @@
     .wide .pc-0,
     .wide .pc-1,
     .wide .pc-2,
+    .wide .pc-2-4,
     .wide .pc-3,
     .wide .pc-4,
     .wide .pc-5,
@@ -565,6 +573,12 @@
     {
         flex: 0 0 16.66667%;
         max-width: 16.66667%;
+    }
+
+    .wide .pc-2-4
+    {
+        flex:0 0 20%;
+        max-width: 20%;
     }
 
     .wide .pc-3

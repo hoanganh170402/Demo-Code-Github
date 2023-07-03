@@ -122,6 +122,7 @@ html
     left: 0;
     right: 0;
     z-index: 1;
+    overflow: hidden;
 }
 
 #nav    
@@ -199,6 +200,7 @@ html
     font-size: 12px;
 }
 
+#header .menu-mobi-btn,
 #header .search-btn
 {
     float: right;
@@ -211,6 +213,17 @@ html
     background-color: red;
 }
 
+#header .menu-mobi-btn:hover
+{
+    background-color: #ccc;
+}
+
+#header .menu-mobi-btn:hover .menu-icon
+{
+    color: #000;
+}
+
+#header .menu-icon,
 #header .search-icon
 {
     color: #fff;

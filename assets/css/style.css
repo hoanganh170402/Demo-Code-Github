@@ -125,6 +125,7 @@ Và chỉ sử dụng khi dùng các class đơn lẻ để làm một việc c�
     left: 0;
     right: 0;
     z-index: 1;
+    overflow: hidden;
 }
 
 #nav
@@ -197,7 +198,7 @@ Và chỉ sử dụng khi dùng các class đơn lẻ để làm một việc c�
     padding: 0 12px;
     line-height: 38px;
 }
-
+#header .mobile-menu-btn,
 #header .search-btn
 {
     float:right;
@@ -210,12 +211,25 @@ Và chỉ sử dụng khi dùng các class đơn lẻ để làm một việc c�
     cursor: pointer;
 }
 
+#header .mobile-menu-btn:hover
+{
+    background-color: #ccc;
+}
+
+#header .mobile-menu-btn:hover .menu-icon
+{
+    color: #000;
+}
+
+#header .menu-icon,
 #header .search-icon
 {
     color:#fff;
     font-size: 15px;
     line-height: 46.5px;
 }
+
+
 
 #slider
 {

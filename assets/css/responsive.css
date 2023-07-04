@@ -13,9 +13,29 @@
 /* Mobile */
 @media (max-width:739px)
 {
+    #header
+    {
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn
+    {
+        display: block;
+    }
+
+    #header .search-btn
+    {
+        display: none;
+    }
     #nav
     {
         display: block;
+    }
+
+    #nav li a 
+    {
+        padding: 1px 24px;
+
     }
 
     #nav > li
@@ -28,13 +48,15 @@
         display: inline-block;
     }
 
-    #header .mobile-menu-btn
+    #nav .subnav 
     {
-        display: block;
+        position: inherit;
+        background-color: #333;
     }
 
-    #header .search-btn
+    #nav .subnav a 
     {
-        display: none;
+        padding: 5px 40px;
+        color: #fff;
     }
 }

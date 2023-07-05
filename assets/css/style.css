@@ -110,6 +110,11 @@ Và chỉ sử dụng khi dùng các class đơn lẻ để làm một việc c�
     margin-top: 16px !important ;
 }
 
+.mt-32
+{
+    margin-top: 32px !important;
+}
+
 /* Main */
 #main
 {
@@ -535,6 +540,7 @@ Và chỉ sử dụng khi dùng các class đơn lẻ để làm một việc c�
     position: relative;
     max-width: calc(100% -32px);
     animation: modalstransition ease .4s;
+
 }
 
 

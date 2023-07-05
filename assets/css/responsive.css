@@ -12,10 +12,23 @@
 
 /* Mobile */
 @media (max-width:739px)
-{
-    .s-col-third
+{   
+    .s-mt-8
     {
-        width: 100%;
+        margin-top: 8px !important ;
+    }
+
+    .s-mt-16
+    {
+        margin-top: 16px !important ;
+    }
+
+
+
+    .s-full-width,
+    .s-col-full
+    {
+        width: 100% !important ;
     }
 
     #header
@@ -68,6 +81,11 @@
     #content .member-img
     {
         width: 60%;
+    }
+
+    .modal-container 
+    {
+        margin: 0 10px;
     }
 
 }

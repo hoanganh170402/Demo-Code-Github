@@ -107,6 +107,12 @@ html
     margin-top: 16px;
 }
 
+
+.mt-32
+{
+    margin-top: 32px;
+}
+
 /* Main */
 #main
 {
@@ -371,7 +377,7 @@ html
 
 .places-list
 {
-    margin-top: 32px;
+    margin-top: 16px;
     margin-bottom: 48px;
 }
 

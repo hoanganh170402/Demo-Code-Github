@@ -13,6 +13,21 @@
 /* Mobile */
 @media (max-width:739px)
 {
+    .s-mt-8
+    {
+        margin-top: 8px !important;
+    }
+    
+    .s-mt-16
+    {
+        margin-top: 16px !important;
+    }
+    .s-full-width,
+    .s-col-full
+    {
+        width: 100% !important;
+    }
+
     #header
     {
         overflow: hidden;
@@ -62,5 +77,15 @@
     {
         padding: 5px 32px;
         color: #fff;
+    }
+
+    #content .member-img
+    {
+        width: 60%;
+    }
+
+    .modal-container 
+    {
+        margin: 0 10px;
     }
 }

@@ -445,6 +445,17 @@ Và chỉ sử dụng khi dùng các class đơn lẻ để làm một việc c�
     display: inline-block;
 }
 
+.contact-info a
+{
+    color: #757575;
+    opacity: 0.8;
+}
+
+.contact-info a:hover
+{
+    opacity: 1; 
+}
+
 .contact-form 
 {
     font-size: 15px;

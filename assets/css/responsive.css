@@ -1,17 +1,17 @@
 /* Pc */
-@media (min-width:1024px)
+@media (min-width:64em)
 {
     
 }
 
 /* Tablet and pc low resolution */
-@media (min-width:740px) and (max-width:1023px)
+@media (min-width:46.25em) and (max-width:63.9375em)
 {
     
 }
 
 /* mobile and tablet */
-@media (max-width:1023px)
+@media (max-width:63.9375em)
 {
     #nav .subnav a
     {
@@ -58,7 +58,7 @@
 }
 
 /* Mobile */
-@media (max-width:739px)
+@media (max-width:46.1875em)
 {
     .s-mt-8
     {

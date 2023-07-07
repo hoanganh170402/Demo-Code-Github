@@ -53,7 +53,7 @@
 
     .modal-container 
     {
-        margin: 0 20px;
+        margin: 60px 20px 10px;
     }
 }
 
@@ -133,6 +133,6 @@
 
     .modal-container 
     {
-        margin: 0 10px;
+        margin:60px 20px 10px;
     }
 }

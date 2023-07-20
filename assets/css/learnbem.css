@@ -72,3 +72,101 @@ body > div
     cursor: default;
     opacity: 0.5 !important;
 }
+
+.toast
+{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #fff;
+    border-radius: 2px;
+    border-left: 4px solid;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+    /* left top shadow color */
+    min-width: 450px;
+    max-width: 500px;
+}
+
+.toast--success
+{
+    border-color: #71be34;
+}
+
+.toast--success .toast__icons
+{
+    color: #71be34;
+}
+
+.toast--info
+{
+    border-color:#2f86eb ;
+}
+
+.toast--info .toast__icons
+{
+    color:#2f86eb ;
+}
+
+.toast--warning
+{
+    border-color: #ffb702;
+}
+
+.toast--warning .toast__icons
+{
+    color: #ffb702;
+}
+
+.toast--error
+{
+    border-color: #ff623d;
+}
+
+.toast--error .toast__icons
+{
+    color: #ff623d;
+}
+
+.toast__close,
+.toast__icons
+{
+    padding: 0 16px;
+}
+
+.toast__icons
+{
+    font-size: 25px;
+}
+
+.toast__body
+{
+    flex: 1;
+}
+
+.toast__title
+{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.toast__message
+{
+    font-size: 16px;
+    color: #ccc;
+    margin-top: 4px;
+    letter-spacing: 0.5px;
+}
+
+.toast__close
+{
+    font-size: 16px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.toast__close:hover
+{
+    opacity: 0.5;
+}
+
+

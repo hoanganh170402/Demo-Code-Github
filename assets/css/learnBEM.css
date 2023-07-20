@@ -77,3 +77,98 @@ body > div
 {
     padding: 16px 56px;
 }
+
+.toast
+{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px 0 ;
+    border-left: 4px solid ;
+    border-radius: 2px;
+    box-shadow:0 5px 8px rgba(0, 0, 0, 0.1);
+    min-width: 450px;
+    max-width: 500px;
+}
+
+.toast--success
+{
+    border-color: #71be34;
+}
+
+.toast--success .toast__icons
+{
+    color:#71be34 ;
+}
+
+.toast--info
+{
+    border-color:#2f86eb ;
+}
+
+.toast--info .toast__icons
+{
+    color:#2f86eb ;
+}
+
+.toast--warning
+{
+    border-color: #ffb702;
+}
+
+.toast--warning .toast__icons
+{
+    color:#ffb702 ;
+}
+
+.toast--error
+{
+    border-color: #ff623d;
+}
+
+.toast--error .toast__icons
+{
+    color: #ff623d;
+}
+
+.toast__close,
+.toast__icons
+{
+    padding: 0 16px;
+}
+
+.toast__icons
+{
+    font-size: 25px;
+}
+
+.toast__body
+{
+    flex: 1 ;
+}
+
+.toast__title
+{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.toast__message
+{
+    font-size: 16px;
+    color: #ccc;
+    margin-top: 6px;
+}
+
+.toast__close
+{
+    font-size: 20px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.toast__close:hover
+{
+    opacity: 0.8;
+}
+
